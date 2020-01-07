@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Restaurant Menu</title>
+	</head>
+	<body>
+		<ul>
+			<li>
+				<a href="#">Home</a>
+			</li>
+			<li>
+				<a href="#">About</a>
+			</li>
+			<li>
+				<a href="#">Reviews</a>
+			</li>
+		</ul>
+		
+		<p>This is the sidebar!</p>
+		
+		<h2>Welcome to our menu!</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>
+						Food
+					</th>
+					<th>
+						Description
+					</th>
+					<th>
+						Price
+					</th>
+				</tr>			
+			</thead>
+			<tbody>
+				<tr>
+					<td>Salad</td>
+					<td>Fresh, delicious, Cobb Salad</td>
+					<td>$7.99</td>
+				</tr>
+				<tr>
+					<td>Burger</td>
+					<td>1/4 lb grass-fed burger with choice cheese</td>
+					<td>$6.99</td>
+				</tr>
+				<tr>
+					<td>Chicken Salad Sandwich</td>
+					<td>Our world famous chicken salad on a bagel with homemade pickles</td>
+					<td>$8.99</td>
+				</tr>
+				<tr>
+					<td>Buffalo Chicken Sandwich</td>
+					<td>Spicy fried chicken on a brioche bun</td>
+					<td>$10.99</td>
+				</tr>
+				<tr>
+					<td>Fries</td>
+					<td>Hand cut potatoes lightly fried and seasoned</td>
+					<td>$1.99</td>
+				</tr>
+				<tr>
+					<td>Soda</td>
+					<td>Regular, diet, orange, root beer</td>
+					<td>$1.00</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<form>
+			<fieldset>
+				<legend>Leave us a comment</legend>
+				<div>
+				<label for="firstName">First Name:</label>
+				<input type="text" id="firstName" name="firstName" required>
+				</div>
+				<div>
+				<label for="lastName">Last Name:</label>
+				<input type="password" id="lastName" name="lastName" required>
+				</div>
+				<div>
+				<label for="mail">Email:</label>
+				<input type="email" id="mail" name="mail" required>
+				</div>
+				<div>
+				<label for="phone">Phone Number:</label>
+				<input type="tel" id="phone" name="phone" required>
+				</div>
+				<div>
+				<label for="rating">Rate us:</label>
+					<div>
+						<select id="rating" name="rating">
+							<option value="Very good">
+								Very good
+							</option>
+							<option value="Good">
+								Good
+							</option>
+							<option value="Regular">
+								Regular
+							</option>
+							<option value="Bad">
+								Bad
+							</option>
+						</select>
+					</div>
+				</div>
+				<label>
+					Your comment:
+					<div>
+						<textarea name="comentario" cols="50">
+						</textarea>
+					</div>
+				</label>
+				<div>
+					<label for="comeback">Would you visit us again?</label>
+					<div>
+						<label>
+							Yes:<input type="radio" name="visit">
+						</label>
+					</div>
+					<div>
+						<label>
+							No:<input type="radio" name="visit">
+						</label>
+					</div>
+				</div>
+				
+					
+			</fieldset>
+		</form>
+		
+	</body>
+</html>
